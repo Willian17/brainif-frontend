@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 export const userKey = '__brainlif_user'
-export const baseApiUrl = process.env.VUE_API_URL
+export const baseApiUrl = 'https://backend-bra.herokuapp.com'
 
 export function showError(e){
     if(e.response.data){
